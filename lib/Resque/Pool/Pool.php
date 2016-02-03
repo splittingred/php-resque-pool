@@ -288,9 +288,9 @@ class Pool
         $class = $this->config->workerClass;
         $worker = new $class($queues);
         if ($this->config->logLevel === Configuration::LOG_VERBOSE) {
-            $worker->logLevel = \Resque_Worker::LOG_VERBOSE;
+            $worker->logLevel = \Resque\Worker::LOG_VERBOSE;
         } elseif ($this->config->logLevel === Configuration::LOG_NORMAL) {
-            $worker->logLevel = \Resque_Worker::LOG_NORMAL;
+            $worker->logLevel = \Resque\Worker::LOG_NORMAL;
         }
 
         return $worker;

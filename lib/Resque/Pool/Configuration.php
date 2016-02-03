@@ -78,7 +78,7 @@ class Configuration
     /**
      * @param string
      */
-    public $workerClass = '\\Resque_Worker';
+    public $workerClass = '\\Resque\\Worker';
     /**
      * @param integer
      */
