@@ -1,9 +1,9 @@
 {
-    "name": "ebernhardson/php-resque-pool",
+    "name": "splittingred/php-resque-pool",
     "type": "library",
     "description": "php-resque worker pool manager",
     "keywords": [],
-    "homepage": "http://github.com/ebernhardson/php-resque-pool",
+    "homepage": "http://github.com/splittingred/php-resque-pool",
     "license": "",
     "authors": [
         {
@@ -13,6 +13,10 @@
         {
             "name": "Nicholas Evans",
             "email": "nick@ekenosen.net"
+        },
+        {
+            "name": "Shaun McCormick",
+            "email": "splittingred@gmail.com"
         }
     ],
     "require": {
